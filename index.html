@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- link to icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- link to icons -->
+    
+    <title>Spotify Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="main">
+
+        <!-- sidebar section -->
+        <div class="side-bar hide2">
+
+            <div class="nav">
+                <div class="nav-option transition split" style="opacity: 1;">
+                    <div class="nav_logo">
+                        <img src="images/spotify.png" alt="">
+                    </div>
+                    <div class="hide nav_logo">&nbsp;&nbsp;&nbsp;Spotify</div>
+                    
+                </div>
+
+                <div class="nav-option transition" style="opacity: 1;">
+                    <i class="fa-solid fa-house pointer"></i>
+                    <a class="hide" href="#">Home</a>
+                </div>
+
+                <div class="nav-option transition hover">
+                    <i class="fa-solid fa-magnifying-glass pointer"></i>
+                    <a class="hide" href="#">Search</a>
+                </div>
+            </div>
+
+            <div class="library">
+
+                <div class="option">
+                    <div class="lib-option nav-option transition hover">
+                        <img class="pointer" src="images/library_icon.png" alt="lib icon">
+                        <a class="hide" href="#">Your Library</a>
+                    </div>
+
+                    <div class="icons">
+                        <i class="fa-solid fa-plus pointer transition hover"></i>
+                        <i class="fa-solid fa-arrow-right pointer transition hover hide"></i>
+                    </div>
+                </div>
+
+                <div class="lib-boxes hide">
+                    <div class="box">
+                        <p class="box-p1 pointer">Create your first playlist</p>
+                        <p class="box-p2 pointer">It's easy, we'll help you</p>
+                        <button class="badge scale transition pointer">Create playlist</button>
+                    </div>
+
+                    <div class="box">
+                        <p class="box-p1 pointer">Let's find some podcasts to follow</p>
+                        <p class="box-p2 pointer">We'll keep you updated on new episodes</p>
+                        <button class="badge scale transition pointer">Browse podcasts</button>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <!-- sidebar section -->
+
+        <!-- cast and crew section -->
+        <div class="main-content">
+
+            <!-- top navigation -->
+            <div class="sticky-nav-pro">
+
+                <div class="sticky-nav">
+                    <div class="left-part right-part ">
+                        <img class="bell pointer hover transition hide2" src="images/backward_icon.png"
+                            alt="Backward">
+                        <img class="bell pointer hover transition hide" src="images/forward_icon.png" alt="forward">
+                        <div class="hero">
+                            <i class="fa-solid fa-house pointer hide hide3 visible"></i>
+                        </div>
+                        <div class="hero hero2">
+                            <i class="fa-solid fa-magnifying-glass pointer hide3 visible"></i>
+                        </div>
+                    </div>
+
+                    <div class="right-part">
+                     <div class="bell hover pointer transition margin">
+                            <i class="fa-regular fa-bell scale"></i>
+                        </div>
+                        <div class="user pointer margin">
+                            <img src="images/letter-c.jpg" alt="user">
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="sticky-nav-boottom">
+                    <button class="badge all pointer">All</button>
+                    <button class="badge badge3 transition pointer">Music</button>
+                    <button class="badge badge3 transition pointer">Podcasts</button>
+                </div>
+
+            </div>
+            <!-- top navigation -->
+            
+            <!-- main body -->
+            <h2 class="card-heading center">Popular artists</h2>
+            <div class="cards-container">
+                <div class="card pointer">
+                    <div class="play">
+                        <i class="fa-solid fa-play"></i>
+                    </div>
+                    <img class="card-img" src="images/shallipoppi.jpeg" alt="card image">
+                    <p class="card-title">Shallipoppi</p>
+                    <p class="card-info">Artist</p>
+                </div>
+
+                <div class="card pointer">
+                    <div class="play">
+                        <i class="fa-solid fa-play"></i>
+                    </div>
+                    <img class="card-img" src="images/asake.jpeg" alt="card image">
+                    <p class="card-title">Asake</p>
+                    <p class="card-info">Artist</p>
+                </div>
+
+                <div class="card pointer">
+                    <div class="play">
+                        <i class="fa-solid fa-play"></i>
+                    </div>
+                    <img class="card-img" src="images/kizz daniel.jpeg" alt="card image">
+                    <p class="card-title">Kizz Daniel</p>
+                    <p class="card-info">Artist</p>
+                </div>
+
+                <div class="card pointer">
+                    <div class="play">
+                        <i class="fa-solid fa-play"></i>
+                    </div>
+                    <img class="card-img" src="images/young john.jpeg" alt="card image">
+                    <p class="card-title">Young John</p>
+                    <p class="card-info">Artist</p>
+                </div>
+
+                <div class="card pointer">
+                    <div class="play">
+                        <i class="fa-solid fa-play"></i>
+                    </div>
+                    <img class="card-img" src="images/burna boy.jpeg" alt="card image">
+                    <p class="card-title">Burna Boy</p>
+                    <p class="card-info">Artist</p>
+                </div>
+
+                <div class="card pointer">
+                    <div class="play">
+                        <i class="fa-solid fa-play"></i>
+                    </div>
+                    <img class="card-img" src="images/Victony for now.jpeg" alt="card image">
+                    <p class="card-title">Not Victony =P</p>
+                    <p class="card-info">Artist</p>
+                </div>
+            </div>
+
+            <h2 class="card-heading">Popular albums</h2>
+            <div class="cards-container">
+                <div class="card pointer">
+                    <div class="play">
+                        <i class="fa-solid fa-play"></i>
+                    </div>
+                    <img class="card-img carded" src="images/jiggy forever.jpeg" alt="card image">
+                    <p class="card-title">Jiggy Forever</p>
+                    <p class="card-info">Young John</p>
+                </div>
+                <div class="card pointer">
+                    <div class="play">
+                        <i class="fa-solid fa-play"></i>
+                    </div>
+                    <img class="card-img carded" src="images/shakespopi.jpeg" alt="card image">
+                    <p class="card-title">Shakespopi</p>
+                    <p class="card-info">Shallipoppi</p>
+                </div>
+                <div class="card pointer">
+                    <div class="play">
+                        <i class="fa-solid fa-play"></i>
+                    </div>
+                    <img class="card-img carded" src="images/work of art.jpeg" alt="card image">
+                    <p class="card-title">Work Of Art</p>
+                    <p class="card-info">Asake</p>
+                </div>
+                <div class="card pointer">
+                    <div class="play">
+                        <i class="fa-solid fa-play"></i>
+                    </div>
+                    <img class="card-img carded" src="images/rnb.jpeg" alt="card image">
+                    <p class="card-title">RnB</p>
+                    <p class="card-info">Ruga, Bnxn</p>
+                </div>
+                <div class="card pointer">
+                    <div class="play">
+                        <i class="fa-solid fa-play"></i>
+                    </div>
+                    <img class="card-img carded" src="images/NAHAMciaga.jpeg" alt="card image">
+                    <p class="card-title">NAHAMciaga</p>
+                    <p class="card-info">Seyi Vibez</p>
+                </div>
+                <div class="card pointer">
+                    <div class="play">
+                        <i class="fa-solid fa-play"></i>
+                    </div>
+                    <img class="card-img carded" src="images/Eziokwu_mixtape.jpg" alt="card image">
+                    <p class="card-title">EZIOKWU</p>
+                    <p class="card-info">ODUMODUBLVCK</p>
+                </div>
+            </div>
+
+            <h2 class="card-heading center">Popular radio</h2>
+            <div class="cards-container">
+                <div class="card pointer">
+                    <div class="play">
+                        <i class="fa-solid fa-play"></i>
+                    </div>
+                    <img class="card-img carded" src="images/en-GB (3).jpeg" alt="card image">
+                    <p class="card-title">ODUMODUBLVCK...</p>
+                    <p class="card-info">With Shallipoppi, Jeriq, Zerrydll and more</p>
+                </div>
+
+                <div class="card pointer">
+                    <div class="play">
+                        <i class="fa-solid fa-play"></i>
+                    </div>
+                    <img class="card-img carded" src="images/en.jpeg" alt="card image">
+                    <p class="card-title">Shallipoppi Radio</p>
+                    <p class="card-info">With Zerrydll, ODUMODUBLVCK, ...</p>
+                </div>
+
+                <div class="card pointer">
+                    <div class="play">
+                        <i class="fa-solid fa-play"></i>
+                    </div>
+                    <img class="card-img carded" src="images/en (1).jpeg" alt="card image">
+                    <p class="card-title">Omalay Radio</p>
+                    <p class="card-info">With Victony, Joeboy, Bnxn and more</p>
+                </div>
+
+                <div class="card pointer">
+                    <div class="play">
+                        <i class="fa-solid fa-play"></i>
+                    </div>
+                    <img class="card-img carded" src="images/en-GB.jpeg" alt="card image">
+                    <p class="card-title">Asake Radio</p>
+                    <p class="card-info">With Seyi Vibez, Young John, Zinoleesky and ...</p>
+                </div>
+
+                <div class="card pointer">
+                    <div class="play">
+                        <i class="fa-solid fa-play"></i>
+                    </div>
+                    <img class="card-img carded" src="images/en (2).jpeg" alt="card image">
+                    <p class="card-title">Seyi Vibez Radio</p>
+                    <p class="card-info">With Balloranking, BhadBoi OML, Barry ...</p>
+                </div>
+
+                <div class="card pointer">
+                    <div class="play">
+                        <i class="fa-solid fa-play"></i>
+                    </div>
+                    <img class="card-img carded" src="images/ab67706f00000002baed3d65fac432ea1f7f7cd0.jpeg" alt="card image">
+                    <p class="card-title">All Out Radio</p>
+                    <p class="card-info">Various Artists</p>
+                </div>
+            </div>
+            <!-- main body -->
+
+            <!-- footer section -->
+            <footer class="footer">
+
+                <div class="social-media">
+                    <div class="social pointer time">
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                    <div class="social pointer time">
+                        <i class="fa-brands fa-twitter"></i>
+                    </div>
+                    <div class="social pointer time">
+                        <i class="fa-brands fa-facebook"></i>
+                    </div>
+                </div>
+
+                <div class="hr">
+                    <hr>
+                </div>
+            </footer>
+    </div>
+
+</body>
+
+</html>
